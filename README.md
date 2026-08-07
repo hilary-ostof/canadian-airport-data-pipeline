@@ -1,19 +1,17 @@
-# canadian-flight-warehouse
-Personal Portfolio Data Engineering project aiming to analyze flight operations trends in Canada's four majour airports
+# Canadian Flight Warehouse
 
-Objectif du projet
+##### Project objective
+Build a data engineering platform that collects, transforms, archives, and analyzes flight data for major Canadian airports to identify operational trends such as:
 
-Construire une plateforme Data Engineering qui collecte, transforme, historise et analyse les données de vols pour les grands aéroports canadiens afin d’identifier les tendances opérationnelles comme :
+departure and arrival volumes;
+average delays by airport;
+delays by airline;
+cancellation rates;
+periods of high activity;
+airport comparisons;
+daily, weekly, or monthly operational trends.
 
-volume de départs et d’arrivées;
-retards moyens par aéroport;
-retards par compagnie aérienne;
-taux d’annulation;
-périodes de forte activité;
-comparaison entre les aéroports;
-évolution quotidienne, hebdomadaire ou mensuelle des opérations.
-
-Repository Organisation
+##### Repository Organisation
 canadian-flight-warehouse/
 
 │
@@ -45,20 +43,7 @@ canadian-flight-warehouse/
 │
 └── README.md
 
-Questions analytiques à répondre :
-Quel aéroport a le plus grand volume de vols par jour?
-Quel aéroport a le plus fort taux de retard?
-Quelles compagnies aériennes ont les retards moyens les plus élevés?
-Les retards sont-ils plus fréquents le matin, l’après-midi ou le soir?
-Quels jours de la semaine ont le plus d’opérations?
-Quel est le taux d’annulation par aéroport?
-Quelle est la tendance des retards sur les 30 ou 90 derniers jours?
-Les arrivées sont-elles plus souvent retardées que les départs?
-Quels corridors sont les plus actifs, par exemple YYZ-YUL ou YVR-YYC?
-Peut-on détecter des pics opérationnels inhabituels
-
-
-High-Level Architecture
+##### High-Level Architecture
                 ┌─────────────────────┐
                 │  AviationStack API  │
                 └──────────┬──────────┘
@@ -89,3 +74,16 @@ High-Level Architecture
                            │
                            ▼
                    SQL Analysis
+
+
+##### Analytical questions to address:
+Which airport has the highest daily flight volume?
+Which airport has the highest delay rate?
+Which airlines have the longest average delays?
+Are delays more frequent in the morning, afternoon, or evening?
+Which days of the week have the highest volume of operations?
+What is the cancellation rate by airport?
+What is the trend in delays over the last 30 or 90 days?
+Are arrivals delayed more often than departures?
+Which corridors are the busiest (e.g., YYZ-YUL or YVR-YYC)?
+Can unusual operational peaks be detected?
