@@ -5,11 +5,32 @@ An end-to-end AWS data engineering project that collects, processes, models, and
 The project demonstrates the design and implementation of a cloud-based ETL/ELT pipeline using **Python, Amazon S3, AWS Lambda, Amazon EventBridge, AWS Step Functions, Amazon Redshift, and SQL**, with a focus on data warehousing, dimensional modeling, historical tracking, and analytics-ready datasets.
 
 ---
+
 # 👤 Author
 
-**Data Engineering Portfolio Project**
+### Hilary Fotso
 
-Built to demonstrate practical experience with Python, SQL, AWS, ETL/ELT pipelines, cloud data warehousing, and dimensional data modeling.
+**DataOps Engineer | Aspiring Data Engineer**
+
+I started this project as part of my transition and continued development toward a career in **Data Engineering**. I wanted to move beyond learning individual tools and concepts in isolation and build a project that reflects how data engineering problems are approached in a real-world environment.
+
+I chose Canadian airport and flight operations data because it provides an interesting engineering challenge: data comes from multiple sources, flight information changes throughout the day, historical changes can be valuable for analysis, and the resulting data naturally lends itself to dimensional modeling and analytical workloads.
+
+Through this project, I wanted to strengthen and demonstrate my ability to:
+
+* Design an end-to-end data pipeline rather than only write standalone scripts
+* Use **Python and SQL** for data extraction, transformation, validation, and analysis
+* Build cloud-based data infrastructure using **AWS**
+* Design a **data lake and data warehouse architecture**
+* Apply concepts such as **Medallion Architecture, dimensional modeling, and SCD Type 2**
+* Make engineering decisions based on trade-offs between **cost, complexity, scalability, and business requirements**
+* Document my technical decisions and explain not only **what** I built, but **why** I built it that way
+
+Most importantly, this project represents my approach to learning Data Engineering: **building practical systems, encountering real constraints, making architectural decisions, and improving the solution as my skills develop.**
+
+📍 Montréal QC, Canada
+💼 **LinkedIn:** https://www.linkedin.com/in/hilary-fotso-2a9180193/
+💻 **GitHub:** https://github.com/hilary-ostof
 ---
 
 ## 📌 Project Overview
