@@ -3,7 +3,7 @@
 
 Canadian airports process hundreds of departures and arrivals every day, while flight information continuously changes as flights are delayed, cancelled, rescheduled, or completed.
 
-This project builds an end-to-end AWS data engineering project that collects, processes, models, and analyzes flight data and operations  from four of Canada's busiest airports.
+This project builds an end-to-end AWS data engineering project that collects, processes, models, and analyzes flight data and operations from four of Canada's busiest airports.
 
 The project demonstrates the design and implementation of a cloud-based ETL/ELT pipeline using **Python, Amazon S3, AWS Lambda, Amazon EventBridge, AWS Step Functions, Amazon Redshift, and SQL**, with a focus on data warehousing, dimensional modeling, historical tracking, and analytics-ready datasets.
 
@@ -17,6 +17,14 @@ Flight information is extracted several times per day to capture changes in oper
 The pipeline ingests raw flight data into an Amazon S3 data lake, transforms and validates it using Python and AWS Lambda, and loads analytics-ready data into Amazon Redshift using a **Medallion Architecture**.
 
 Historical changes to flight information are preserved using **Slowly Changing Dimension Type 2 (SCD2)** concepts where appropriate.
+
+### 👤 Why I Built This Project
+
+I'm **Hilary Fotso**, currently working as **DataOps Engineer** and building toward a career in Data Engineering.
+
+I started this project to move beyond learning data engineering tools individually and apply them to a realistic, end-to-end problem. Flight operations were particularly interesting to me because the data is continuously changing, comes from multiple sources, and creates real challenges around ingestion, historical tracking, data modeling, and analytics.
+
+My goal is not simply to use as many technologies as possible, but to understand **why and when they should be used**. As the project evolves, I document the architectural decisions, trade-offs, and improvements I make along the way.
 
 ###  🚧 Project Status
 
